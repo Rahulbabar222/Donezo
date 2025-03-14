@@ -3,7 +3,7 @@
 A simple and elegant **Todo List** application built with **React, Vite, and Tailwind CSS**. This app allows users to add, delete, and manage tasks efficiently.
 
 ## 🚀 Live Demo
-[View Deployed App](https://donezo-rmb.netlify.app)
+[View Deployed App - Donezo](https://donezo-rmb.netlify.app "Visit Website")
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b0bd9de2-d876-4c0e-b09d-8899d7c4306f/deploy-status)](https://app.netlify.com/sites/donezo-rmb/deploys)
 
