@@ -9,7 +9,7 @@ const Navbar = () => {
         </div>
 
         <div className="text-base hover:scale-102 hover:underline">
-            <a className='flex items-center' href="#">
+            <a className='flex items-center' href="https://github.com/Rahulbabar222/Donezo">
                 <p className='px-2'>View code on Github</p>
                 <img className='w-7' src="github.png" alt="" />
             </a>
