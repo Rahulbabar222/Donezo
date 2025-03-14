@@ -43,7 +43,9 @@ A simple and elegant **Todo List** application built with **React, Vite, and Tai
     npm run build
     ```
 
-## 📜 Licence
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 This project is open-source and free to use. 
 
 🚀 Made with ❤️ using React, Vite & Tailwind!
