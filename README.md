@@ -45,6 +45,21 @@ A simple and elegant **Todo List** application built with **React, Vite, and Tai
     npm run build
     ```
 
+## 🚀 Future Updates
+
+Here are some planned features and improvements for upcoming versions:
+
+- [ ] 🔹 Add **dark mode** support 🌙
+- [ ] 🔹 Implement **drag & drop** for task reordering 🔄
+- [ ] 🔹 Introduce **reminders** for tasks ⏰
+- [ ] 🔹 Recurring Tasks **(Daily, Weekly, Monthly)**
+- [ ] 🔹 Priority Levels **(Low, Medium, High)**
+- [ ] 🔹 Task Streaks **(Encourage consistency)**
+- [ ] 🔹 Pomodoro Timer ⏳ **(Focus & time management)**
+- [ ] 🔹 Categories/Tags **(Work, Personal, Shopping, etc.)**
+
+Stay tuned for updates! If you have suggestions, feel free to open an issue or contribute! 🚀
+
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
