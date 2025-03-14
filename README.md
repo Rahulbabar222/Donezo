@@ -5,6 +5,8 @@ A simple and elegant **Todo List** application built with **React, Vite, and Tai
 ## 🚀 Live Demo
 [View Deployed App](https://donezo-rmb.netlify.app)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b0bd9de2-d876-4c0e-b09d-8899d7c4306f/deploy-status)](https://app.netlify.com/sites/donezo-rmb/deploys)
+
 ## ✨ Features
 ✅ Add new tasks  
 ✅ Mark tasks as **completed**  
