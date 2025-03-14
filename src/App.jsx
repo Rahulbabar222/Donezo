@@ -87,7 +87,7 @@ function App() {
     return (
         <>
             <Navbar />
-            <div className="container mx-auto bg-[#fffbf6] h-[78vh] rounded-3xl p-5 my-5 space-y-5 w-[80vw] ">
+            <div className="container sm:mx-auto bg-[#fffbf6] rounded-3xl p-5 my-5 space-y-5 sm:w-[80vw] ">
 
                 {/* title */}
                 <div className="title text-center">
@@ -95,20 +95,20 @@ function App() {
                 </div>
 
                 {/* Add todo section */}
-                <div className="addToDo bg-[#f1ece6] rounded-full w-full flex justify-between">
+                <div className="addToDo bg-[#f1ece6] rounded-full sm:w-full flex justify-between">
                     <input onChange={handleChange} value={todo} required className='w-full focus:outline-none px-5' type="text" name="todo" placeholder='What do you need to do?' />
                     <button onClick={handleAdd} disabled={!todo.trim()} className=' disabled:bg-gray-500 text-white rounded-r-full py-3 px-5 bg-[#76b7cd] hover:bg-[#8bc5da]'>ADD</button>
                 </div>
 
                 {/*View Buttons */}
-                <div className="flex items-center gap-2 px-5">
+                <div className="flex justify-center items-center gap-2 px-5">
                     <button onClick={()=>setFilter("all")} className={` px-4 hover:bg-gray-100 rounded-full ${filter === "all" ? "text-zinc-700 font-bold" : "text-zinc-400"}`}>All</button>
                     <button onClick={()=>setFilter("active")} className={` px-4 hover:bg-gray-100 rounded-full ${filter === "active" ? "text-zinc-700 font-bold" : "text-zinc-400"}`}>Active</button>
                     <button onClick={()=>setFilter("completed")} className={` px-4 hover:bg-gray-100 rounded-full ${filter === "completed" ? "text-zinc-700 font-bold" : "text-zinc-400"}`}>Completed</button>
                 </div>
 
                 {/* Todos list Section */}
-                <div className="tasks bg-[#f1ece6] rounded-3xl w-full h-[52vh] px-5 py-3 overflow-y-auto">
+                <div className="tasks bg-[#f1ece6] rounded-3xl sm:w-full h-[52vh] px-5 py-3 overflow-y-auto">
 
                     {/* empty message */}
                     {filteredTodos().length === 0 && (
